@@ -16,6 +16,7 @@ torch = { version = "^2.7.0+cu118", source = "pytorch-cu118" }
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
+black = "^25.1.0"
 
 [[tool.poetry.source]]
 name = "pytorch-cu118"
